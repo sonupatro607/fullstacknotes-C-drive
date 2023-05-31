@@ -1,0 +1,19 @@
+1.frontend - it is used to display the data to the end user.
+
+2.backend - pick data from database and put it in the frontend so that use can use it.
+it also take the request from frontend and give it this response to database and then database collect the data basedon the request which it got and then give it back the response to the frontend 
+
+3.database - it is a place where we used to store the data permanantly.
+
+
+FRONTEND 
+1.HTML
+2.CSS
+3.JS
+4.REACT
+
+1.HTML--> IT is used to put our content on our webpage.
+
+2.css---> it used to decorate our content.
+
+3.js---> it is used to integrate event in our webpage.

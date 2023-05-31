@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: chartreuse;
+}
+h3 {
+  position: absolute;
+  left: 570px;
+  top: 290px;
+}
+.main-ctn {
+  width: 100vw;
+  height: 34px;
+  background-color: aqua;
+}
+.left {
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+}
+.right1 {
+  font-size: 20px;
+  position: relative;
+  left: 893px;
+}
+.right2 {
+  font-size: 20px;
+  position: relative;
+  left: 923px;
+}
+.right3 {
+  font-size: 20px;
+  position: absolute;
+  left: 1145px;
+}

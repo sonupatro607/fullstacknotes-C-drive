@@ -1,0 +1,23 @@
+.img1 {
+  width: 530px;
+  height: 530px;
+  border-radius: 50%; /*it use for giving different shape to the image like circle cut edge square */
+}
+.clas1 {
+  width: 271px;
+  height: 159px;
+  border-radius: 200px;
+}
+table,
+th,
+td,
+tr {
+  margin: 50px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 600px;
+  height: 203px;
+}
+th {
+  font-size: 60px;
+}

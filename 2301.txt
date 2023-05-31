@@ -1,0 +1,224 @@
+QUESTION:
+
+*
+**
+***
+
+BEGIN
+ CREATE stars
+ FOR stars 1 to 3
+   IF stars =1 
+     WRITE "*"
+   IF stars =2 
+     WRITE "**"
+   IF stars =3
+     WRITE "***"
+   GO TO THE NEXT LINE 
+END
+
+QUESTION:
+***
+**
+*
+
+BEGIN
+ CREATE stars
+ FOR stars 1 to 3
+   IF stars =1 
+     WRITE "***"
+   IF stars =2 
+     WRITE "**"
+   IF stars =3
+     WRITE "*"
+   GO TO THE NEXT LINE 
+END
+
+QUESTION:
+1
+2 3
+4 5 6
+
+BY ME:
+BEGIN
+ CREATE stars
+ FOR stars 1 to 4
+   IF stars =1 
+     WRITE "1"
+   IF stars =2 
+     WRITE "2 + " " + 3"
+   IF stars =3
+     WRITE "4 + " " + 5 + " " + 6"
+  IF stars =4
+     WRITE "7 + " " + 8 + " " + 9 + " " + 10"
+
+   GO TO THE NEXT LINE 
+END
+
+BY SIR:
+BEGIN
+ CREATE stars
+ FOR stars 1 to 4
+   IF stars =1 
+     WRITE "1"
+   IF stars =2 
+     WRITE "2 3"
+   IF stars =3
+     WRITE "4 5 6"
+  IF stars =4
+     WRITE "7 8 9 10"
+
+   GO TO THE NEXT LINE 
+END
+
+
+
+
+QUESTION:
+
+BEGIN 
+ CREATE num
+ SET num 1 
+ FOR i = 1 to 4 
+  WRITE num 
+  IF num = 1 OR 3 OR 6
+    GO TO NEXT LINE 
+  SET num to num+1
+END 
+
+solution:
+
+1
+2 3
+4 
+
+
+---------------------------------
+** WHILE LOOP ***
+
+if we know the number of iteration in advance then we use FOR LOOP 
+  EG :
+ FOR 1 TO 100
+
+if we don't know the number of iteration in advance then we will go with WHILE LOOP 
+EG:
+ WHILE num <> 100
+
+
+EXAMPLES:
+1)-
+num 1 to 100
+
+FOR num 1 to 100
+  WRITE num
+
+2)- 
+num= 1, TIME= 24
+
+WHILE TIME <> 24
+ WRITE num
+
+FOR TIME = 1 to 24
+ WRITE num
+
+NOTE:
+whatever we can do it in FOR LOOP we can also do it that same think in the WHILE LOOP also 
+
+QUESTION:
+keep adding 5 to num until num <=100
+
+BEGIN
+CREATE num
+FOR num 1 to 100
+  if num <=100
+    WRITE num
+  SET num num+5
+END
+
+BEGIN
+CREATE num
+SET num 1 
+WHIILE num<=100
+    WRITE num
+  SET num num+5
+END
+
+
+QUESTION:
+write a pseudocode to print all multiple of 3 in the range 1 to 200.
+
+output: 3,6,9,12,15....so on
+
+BEGIN
+CREATE num
+FOR num 1 to 200
+  if num num*3
+    WRITE num
+END
+
+BEGIN
+CREATE num
+SET num 1 
+WHIILE num<=200
+  SET num num*3
+  WRITE num
+  num = num+1
+END
+
+
+BY SIR: 
+
+BEGIN
+CREATE num, i
+SET num=3,i=2
+WHILE num <=200
+    WRITE num
+   num num*i
+   i = i+1
+
+END
+output:
+3
+6
+9
+.
+so on
+
+APPROACH 1:
+
+BEGIN
+CREATE num, i
+SET num=3,i=2
+FOR num 
+    WRITE num
+   num num*i
+   i = i+1
+
+END
+
+APPROACH 2:
+
+BEGIN
+CREATE num
+FOR num 1 to 100
+  IF num MOD 3=0
+    WRITE num
+
+END
+
+EXAMPLE OF "WHILE LOOP":
+
+BEGIN
+CREATE num
+SET num 1
+WHILE num<=10
+   WRITE "AVINASH PATRO"
+   SET num num+1
+END
+
+OUTPUT:
+AVINASH PATRO......10 TIMES
+
+
+  
+  
+  

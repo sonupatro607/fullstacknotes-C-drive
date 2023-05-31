@@ -1,0 +1,177 @@
+QUESTIONS:
+1).
+FOR i=1 to 100
+ WRITE "HI"
+
+SOLUTION:
+HI ....100 TIMES
+2).
+num=2
+WHILE num<=20
+  WRITE "HI"
+  num=num+5
+
+SOLUTION:
+HI 
+HI
+HI
+HI
+
+3).
+num=1
+WHILE num<=2
+  WRITE "HI"
+
+SOLUTION:
+HI
+HI 
+HI 
+.
+.
+INFINITE TIMES
+
+4).
+X=3
+Y=5
+WHILE X<Y
+  WRITE "HI"
+
+SOLUTION:
+HI
+HI 
+HI 
+.
+.
+INFINITE TIMES
+
+-----------------------------------------
+
+** DO-WHILE LOOP ***
+
+IN DO-WHILE LOOP, we will execute do statement first then it will check the WHILE condition like WHILE LOOP. It means WHILE condition will be true or false it don't matter do statement will be definetly execute once.
+
+EXAMPLE:1
+X=21
+DO
+ WRITE "AVINASH PATRO"
+WHILE x<=20
+
+EXAMPLE:2
+
+DO
+ WRITE "AVINASH PATRO"
+WHILE true
+
+OUTPUT:
+AVINASH PATRO...INFINITE TIMES
+
+EXAMPLE:3
+
+DO
+ WRITE "AVINASH PATRO"
+WHILE false
+
+OUTPUT:
+AVINASH PATRO
+
+
+** DIFFERENCE B/W WHILE AND DO-WHILE LOOP **
+
+EXAMPLE:
+// WHILE LOOP:
+X=20
+WHILE X<=20
+ WRITE "AVINASH PATRO"
+ X=X+1
+
+// DO-WHILE LOOP:
+X=21
+DO
+ WRITE "AVINASH PATRO"
+WHILE x<=20
+
+
+QUESTIONS:
+1).
+X=3
+DO 
+  WRITE X
+WHILE X<=4
+
+SOLUTION:
+3..... infinite time
+
+2).
+X=6
+WHILE X<=6
+  WRITE X
+  X=X/2
+
+SOLUTION:
+6
+3
+3/2
+3/4
+3/8
+.
+.
+3/n*2 (infinite times)
+
+3). 
+x=3
+DO
+  WRITE X
+WHILE X<=4
+
+SOLUTION:
+3..... infinite time
+
+4).
+num=2
+WHILE num<=2
+  WRITE (num+2)
+  num=num+2
+
+SOLUTION:
+4
+
+5).
+X=16
+WHILE X<>16
+  WRITE X
+
+SOLUTION:
+NOTHING
+
+--------------------------
+** ARRAY ***
+Array are used to store more than one items of same type.
+
+EXAMPLE:
+ARRAY integer arr;
+arr= {1,2,3,5,6}
+
+ARRAY RealNumbers arr;
+arr= {2.0,3.0,4.1}
+
+ARRAY Character arr;
+arr={'a','b','c'}
+
+ARRAY String arr;
+arr={"a","ab","abv"}
+
+ARRAY Logical arr;
+arr={true,false,true}
+
+{1,2.0,'a'} ----> we cannot store it into the array bcz array should contain only single data type
+
+ARRAY :
+
+arr = {1,2,4,5,6,7,8}
+ index-0,1,2,3,4,5,6
+
+HOW TO ACCESS THE ELEMENT OF ARRAYS
+arr[1]- 2
+arr[0]- 1
+arr[3]- 5
+arr[6]- 8

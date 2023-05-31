@@ -1,0 +1,16 @@
+https://github.com/meh-sudhanshu/Codehshastra-jan-fsd-batch
+
+sir email id 
+sudhanshu.kumar@codeshastra.com
+
+sumesh sir notes github link:
+https://github.com/SharmaSumesh/FSD-FT-MB-3
+https://github.com/SharmaSumesh/React-Interview-Question
+https://github.com/SharmaSumesh/JS-Interview-Question
+https://github.com/SharmaSumesh/Api
+https://github.com/SharmaSumesh/Bootstrap/blob/main/Cards%20%26%20List%20and%20Pagination%20-%20Studynotes.pdf
+
+instance of AWS
+https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html
+PUTTY OF AWS
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html#putty-private-key

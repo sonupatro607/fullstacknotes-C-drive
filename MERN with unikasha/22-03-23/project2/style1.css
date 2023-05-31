@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-ctn {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+}
+.upper {
+  width: 100vw;
+  height: 50vh;
+  background-color: aqua;
+  gap: 10px;
+}
+.Lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: rgba(255, 0, 0, 0.001);
+  gap: 10px;
+}
+.LL {
+  width: 30%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.LR {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(43, 226, 128);
+}

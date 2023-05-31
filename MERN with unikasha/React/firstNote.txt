@@ -1,0 +1,2 @@
+you have to write command on terminal with your react file directory 
+command --> npx create-react-app appname

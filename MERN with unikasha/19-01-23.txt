@@ -1,0 +1,229 @@
+******************************************
+
+what we will look at today ? 
+
+variable 
+constant 
+datatype 
+operator and operand (what is the difference type of operand we have)
+expression and equation 
+function 
+parameter and argument 
+local and global variable 
+return 
+
+*********************************************
+
+1. Variable : variable is something that we can change it value.
+
+EX : 
+pm of a country,
+60% of x,
+distance b/w two city (it might be different from air, from water, from road)
+
+60% of 100 = 60 
+60% of 30 = 18
+
+2. Constant : constant is something that we can not change it value.
+
+EX : 
+
+30kg of wheat sack 
+2 liter water bottle
+
+3. Data Type-
+
+1. Numeric data type :
+numeric data type can be differeciate it into a two types
+
+a. integers---> 1,2,-10,-29
+b. real numbers ------> -3.2, 3.5, 9.0, 0.8
+
+2. character -----> a single character enclosed b/w ' ' 
+
+'a', '1', '&', '$', '_', '=', '0', '.'.....etc 
+
+'23' ---> not allowed
+'+-' -----> not allowed
+2 -------> it is a numeric data type 
+'2' -------> it is a character 
+
+3. String ----------> one or more than one character enclosed b/w " " 
+
+'s' ---> character 
+"s" ----> string
+"sudhanshu" ------> string 
+"22" --------> String 
+"++" -----------> String 
+"+" -----------> String 
+.
+.
+.
+etc
+
+4. Logical data type -----> True and False are logical data type 
+
+----------------------------------------------------------------------------
+
+** Data Set :::: -----> it is nothing but the range of that particular data type 
+
+1. Numeric data type:
+  a. Integers ---> all whole numbers  eg :1,2,3...etc
+
+       data set = +1 to +infinity, 0, -1 to -infinity 
+
+  b. real number ------> whole number + decimal numbers
+-1.0,-1.1,-1.8,2.0,1.0
+
+        data set: +1.0 to +infinity, 0.0, -1.0 to -infinity 
+
+-1.1, -1.2 .......and so on 
+
+2. character -----> 
+
+data set:
+all letter + all number + all special character 
+
+a - leter 
+1  - number 
+$ - special character 
+
+3. String --------> 
+      data set : combination of more than one character or a single character.
+
+4. Logical ----------> 
+      data set : True , False
+
+
+------------------------------------------------------------------------
+
+
+
+
+
+OPERATOR--->
+
+1. mathematical operators --> ( for all the mathamatical operator is only
+ two operand are required)
+
++ ----> 2+3 = 5 
+        2.1 + 3.1 = 5.2
+        2.0 + 4 = 6.0
+- -----> 2.0 - 1.8 = 0.2
+
+* ------> multiplication
+
+/ -----> division 
+eg - 4/2 = 2.0
+          4.0/2.0 = 2.0 
+
+\ ------->  integer division 
+eg - 4\2 = 2 
+ 3\2 = 1
+
+mod ------> it gives us a reminder of the division nuumbers 
+
+eg - 4 mod 2 = 0 reminder
+5 mod 3 = 2 reminder 
+8 mod 5 = 3 reminder 
+number MOD 2 = 0 --------> number is even
+number MOD 2 = 1 --------> number is odd
+
+^ -------> power operator 
+
+eg - 2^3 = 8 
+5^2 = 25 
+
+2. Relational operator-- (Relational operator will always produce logical outputs(true or false))---(two operands are required)
+
+a. = -----> equal to 
+  
+eg - 2=2 --> true 
+2=3 --> false 
+2=2.0 ----> false 
+
+b. < -----> less than 
+eg - 2<3 = true 
+2<1 = false 
+
+c. > ------> greater than 
+eg - 2>3 = false 
+3>2 = true 
+
+d. <= -------> less than or equal to (it will produce true if a is either less or equal to b )
+eg - 2<=3 = true 
+3<=2 = false 
+3<=3 = true
+
+e. >= ------> greater than or equal to (it will produce true if a is either greater or equal to b  )
+eg - 2>=3 = false
+3>=2 = true
+3>=3 = true
+
+f. <> --------> not equal to
+eg - 2 <> 3 = true 
+4 <> 4 = false 
+3<>2 = true 
+
+3. Logical Operators (it will always produce logical outputs(true or false))
+
+a. AND ( it will require two operands ) 
+
+    x AND y ------> (it will produce true only when x and y both will be true )
+
+true AND true ---> true 
+false AND true ---> false 
+True AND false --->false 
+false AND false ---> false 
+
+b. OR ( it will require two operands)
+
+     x OR y -------------> (it will produce true only when either x or y will be true )
+
+true OR true ---> true 
+false OR true ---> true 
+True OR false ---> true 
+false OR false ---> false
+
+c. NOT ( it will require only one operand)
+
+    NOT x ---> (it will produce true only when x will be false )
+
+    NOT True ---> false 
+    NOT False ----> true 
+
+
+-------------------------------------------------------------
+
+FUNCTION ---> function is a small set of instruction that are used to store some steps,
+ it needed to be execute a particulat task
+
+ PROBLEM : ADD a and b 
+ steps - 
+   1. store these number in somewhere 
+   2. perform the mathamatical expression(addition, substraction, multiplication)
+   3. produce output
+
+eg- 
+function addTwoNumbers = firstNumber : a , secondNumber : b => 
+            1. store these number in somewhere 
+            2. perform the mathamatical expression(addition, substraction, multiplication)
+            3. produce output 
+
+
+addTwoNumbers : 2,3 --------->Output- 5 
+
+addTwoNumbers : 5,7 ------------>Output- 12
+
+question: write the function to calculate the square of two numbers? (only steps needed)
+
+steps- (BY ME )
+1. first make a function with the name of squareTwoNumbers
+2. have to know how to perform the power operator.
+3. take two digit number - 10
+4 calculate the square of two number and get the output in you console or your terminal- 10^2 = 100
+
+steps- (BY sir )
+1. Store the number in a / store the number a
+2. perform power operation or multiplication (a^2 / a*a)
+3. produce output 

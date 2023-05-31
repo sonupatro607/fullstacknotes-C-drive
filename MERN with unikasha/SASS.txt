@@ -1,0 +1,80 @@
+SASS
+1)- make a file with extension with .scss
+2)- install a extesnsion "live sass compailor"
+then 
+.css and .sass.map will added into your file 
+3)- then click on watching on botton of visual code.
+
+# what sass does how it help us most?
+we write all the css code in .scss file these css code automatically generated in .css file we don't css code again in css only we need to link this .css file with our index.html file. 
+
+in .scss file:
+1)- how operator works ?
+
+- example 
+font-size : 19px + 100px;
+font-weight: 100px - 20px;
+font-weight: 100px /20px;
+font-weight: 100px *20px;
+
+2)- how variable works?
+
+$variablename : 19px / colorname ;
+
+example:
+$bg-color: red;
+$ color: blue;
+$font-size: 29px;
+$font-weighrt: 50px;
+
+how we use our created variables?
+h1{
+background-color: $bg-color;
+font-size: $font-size;
+font-weight: $font-weight;
+}
+
+3)- how do use nested loop?
+index.html -->
+<div class="main">
+<h1>avinash<h1/>
+<p>akash patro<p/>
+<div/>
+
+file.scss--->
+.main{
+width: 10px;
+height: 29px;
+h1{
+font-size: $font-size;
+}
+p{
+font-size: $font-size;
+}
+}
+
+4)- how to use "mixin"?
+file.scss--->
+
+@mixin flexbox {
+displayL flex;
+justyfy-containt: center;
+align-item: center;
+}
+
+.main{
+@include flexbox;
+}
+
+5)- how to import other style.css file and how to use in file.scss?
+file.scss--->
+import "./filename"
+
+how to use 
+file.scss-->
+h1{
+color : var(filename);
+}
+
+
+

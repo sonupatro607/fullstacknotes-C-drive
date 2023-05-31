@@ -1,0 +1,70 @@
+.booking {
+  width: 100%;
+  height: 100%;
+}
+.wrappers {
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: ro;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.img0 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.top {
+  width: 100%;
+  height: 72px;
+  background-image: linear-gradient(
+    to right,
+    #2c3bbf,
+    #6b2c72,
+    #a5284a,
+    #ab2f0d,
+    #924300,
+    #815300
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading1 {
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  right: 130px; */
+}
+.logout {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 14px;
+  position: relative;
+  left: 90%;
+  top: 30px;
+}
+.stackboxappointment {
+  position: absolute;
+}

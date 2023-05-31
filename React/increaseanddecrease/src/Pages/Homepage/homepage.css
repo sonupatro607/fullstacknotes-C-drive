@@ -1,0 +1,32 @@
+.main-ctn {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.increase,
+.decrease {
+  width: 120px;
+  padding: 5px;
+  margin: 10px;
+}
+.increase {
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.decrease {
+  background-color: rgb(255, 47, 50);
+  border-radius: 10px;
+}
+.warning {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  opacity: 0.2;
+  position: absolute;
+}

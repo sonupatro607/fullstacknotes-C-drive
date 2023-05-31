@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-ctn {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+.div1 {
+  width: 70%;
+  height: 70%;
+  background-color: blueviolet;
+  position: relative;
+  left: 203px;
+  top: 100px;
+  border-radius: 50%;
+}
+.div2 {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(226, 43, 70);
+  position: absolute;
+  left: 304px;
+  top: 100px;
+  border-radius: 15%;
+}

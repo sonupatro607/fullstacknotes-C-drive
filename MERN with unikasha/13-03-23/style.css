@@ -1,0 +1,46 @@
+h2 {
+  color: blue;
+  font-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 10px;
+}
+
+.test {
+  color: brown;
+  font-size: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 8px;
+}
+
+#test1 {
+  color: red;
+  font-size: 170px;
+  font-weight: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 8px;
+}
+.imag {
+  width: 530px;
+  height: 530px;
+  border-radius: 250px; /*it use for giving different shape to the image like circle cut edge square */
+}
+.div1 {
+  background-color: yellow;
+  height: 350px;
+  width: 350px;
+}
+#id1 {
+  font-size: 53px;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sec1 {
+  background-color: cornflowerblue;
+  height: 350px;
+  width: 350px;
+}

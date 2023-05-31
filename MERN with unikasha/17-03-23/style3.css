@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* NOTE: IF PARENT POSTION VALUE IS STATIC THEN ABSOLUTE WILL NOT WORK. */
+.div1 {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
+  position: fixed;
+  left: 200px;
+  top: 200px;
+}
+.div2 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 0, 72);
+  position: static;
+}
+.div3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(21, 255, 0);
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+/* note: IT WILL WORK PROPERLY ACCORDING TO US.; */
+/* .div1 {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    position: static;
+
+  }
+  .div2 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 0, 72);
+    position: fixed;
+    left: 200px;
+    top: 200px;
+  }
+  .div3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(21, 255, 0);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  } */

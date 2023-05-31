@@ -1,0 +1,59 @@
+Problem for which will have a straight forward solution -----> algorithmic problems 
+
+eg- addition of two number
+move to resturant 
+move to a temple 
+
+Problem for which will not have a straight forward solution -----> heuristic problems 
+
+eg - predicting best stocks 
+give me 300cr 
+
+
+** you need to have a knowledege of six steps in order to solve any problems (algorithimic as well as heuristic) **
+
+1. identify the problem 
+2. understand the problem 
+3. find the alternate ways to solve this problems
+4. find the best way to solve the problem.
+5. write the steps to execute the best solution.
+6. evaluation to the best solution.
+
+
+
+
+
+
+first number is 7
+second number  is 6 
+sum of first and secomd number stored im sum 
+
+sum is equivalent to sum of first and second number that is 13 
+
+
+calculate the cost of using bike for one month 
+steps 
+
+1. yes i have a bike 
+2. i ride my bike daily 
+3. At minimum i spend my time with my bike around 1 to 2hrs.
+4. my bike average is almost 60km/liter
+5 i cover the distance around 15 km daily basis.
+6 according to distance coverage by 15km daily, basis of my 
+average of my bike i spend 25.5 rs daily 
+7. and also i keep my bike clean and maintain their average by their servicing in a week, there i spend 150rs in a week 
+8. the over all cost i spend on the bike for a month is 
+25.5*30 + 150*4 = 1365rs/month
+
+VARIABLE, CONSTANT, DATA TYPE 
+1. VARIABLE - it is nothing but it is something that can change .
+eg - pm of country 
+cm of state
+2. constant - it cannot change.
+eg- father name 
+your number of sibling 
+
+x - 
+
+
+

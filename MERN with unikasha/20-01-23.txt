@@ -1,0 +1,177 @@
+pseudocode:
+----> just some rough steps to perform a job/task 
+-----> machines can not understand pseudocode
+------> pseudocode is for humans to organise their solution
+
+question: 
+write a pseudocode to add two numbers:
+
+BEGIN EXECUTION
+  READ number1
+  READ number2 
+  result = ADD number1,number2
+  WRITE result 
+END EXECUTION
+
+QUESTION : 
+write a pseudocode to substract , multply and divide two number
+
+BEGIN EXECUTION OF CODE 
+  READ number1 
+  READ number2 
+  substraction = number1 - number2 
+  multiplication = number1 * number2
+  divide = number1 / number2
+END EXECUTION OF CODE 
+
+IF and ELSE 
+
+1st way- 
+
+BEGIN
+  READ number 
+  IF number is even:
+    WRITE "number is even"
+   ELSE
+     WRITE "number is odd"
+   END IF and ELSE statement 
+END 
+
+2st way- 
+
+BEGIN
+  READ number 
+  IF number MOD 2 = 0:
+    WRITE "number is even"
+   ELSE
+     WRITE "number is odd"
+   END IF and ELSE statement 
+END
+
+** concept of MOD ***
+number MOD 2 = 0 --------> number is even
+number MOD 2 = 1 --------> number is odd
+
+QUESTION:
+write a pseudocode to check if a number is less than or equals to 10
+
+BEGIN
+  READ number 
+  IF number <= 10:
+    WRITE "number is less than equal to 10"
+   ELSE
+     WRITE "number is not less than equal to 10"
+   END IF and ELSE statement 
+END
+
+QUESTION : 
+write a pseudocode to calculate average of 3 numbers
+
+BEGIN
+  READ number1, number2, number3 
+  
+SET sum = number1+ number2+ number3 
+
+SET average = sum/3
+
+WRITE average
+END
+
+QUESTION : 
+write a pseudocode to find greater of three number
+
+BEGIN
+
+  READ num1, num2, num3 
+  
+IF num1>num2 AND num1>num3    // (we cannot use OR here bcz if either one of them becomes true its consider as a true. )
+  WRITE num1
+ELSE 
+  IF num2>num1 AND num2>num3
+    WRITE num2
+  ELSE 
+    WRITE num3
+
+END 
+
+QUESTION:
+write a pseudocode to check if a number is divisible by 18 as well as 3 
+
+BEGIN
+
+  READ number
+
+IF number MOD 3=0
+  IF number MOD 18=0
+    WRITE "it is divisible by 18 and 3 both "
+  ELSE 
+    WRITE "it is divisible by 3 but not by 18"
+ELSE 
+  IF number MOD 18=0
+    WRITE "it is divisible by 18 but not by 3"
+  ELSE 
+    WRITE "it is not divisible by 18 and by 3 both"
+
+END 
+
+--------------------------------
+
+LOOP
+
+1. FOR-LOOP
+
+QUESTION:
+write a pseudocode to print "hello sir" 6 times
+
+approach1:
+
+BEGIN
+  WRITE "hello sir"
+  WRITE "hello sir"
+  WRITE "hello sir"
+  WRITE "hello sir"
+  WRITE "hello sir"
+  WRITE "hello sir"
+END
+
+approach2:
+
+BEGIN
+   SET num 1 / CREATE num 
+   FOR num = 1 to 6:                 // FOR LOOP 
+      WRITE "hello sir"
+END
+
+QUESTION:
+write a pseudocode to print from 1 to 100
+
+BEGIN
+   CREATE num
+   FOR num = 1 to 100:                
+      WRITE num
+END
+
+QUESTION:
+write all the odd numbers in the range 1 to 50,000
+
+BEGIN
+   CREATE num
+   FOR num 1 to 50,000:  
+      IF num MOD 2=1            
+        WRITE num
+END
+
+QUESTION: 
+write a pseudocode to print number from 1 to 10000 with 5 steps
+
+output: 1,6,11,16,21,26..........
+
+BEGIN
+   CREATE num
+   FOR num 1  to 10000:   
+       WRITE num
+     SET num num+5
+END
+
+
+

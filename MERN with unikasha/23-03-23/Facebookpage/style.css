@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-ctn {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 50px;
+  font-family: sans-serif;
+  -webkit-text-stroke-width: 1px;
+  color: #1273f8;
+  position: relative;
+  left: 50px;
+  bottom: 83px;
+}
+.pharagrhap1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 13px;
+  color: #000204;
+  position: relative;
+  left: 161px;
+  bottom: 70px;
+  word-wrap: break-word;
+  white-space: wrap;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: #f0f2f5;
+}
+.card {
+  width: 368px;
+  height: 322px;
+  padding: 10px;
+  margin: 100px 0 0 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+.user {
+  width: 95%;
+  height: 40px;
+  position: relative;
+  left: 10px;
+  radius: 5px;
+}
+.user:focus,
+.password:focus {
+  outline: rgba(131, 131, 139, 0.25);
+}
+.password {
+  margin: 10px;
+  width: 95%;
+  height: 40px;
+  radius: 5px;
+}
+.login {
+  margin: 10px;
+  width: 95%;
+  height: 40px;
+  color: #ffffff;
+  background-color: #166fe5;
+}
+.login:hover {
+  background-color: #6277f3;
+  color: white;
+}
+.forgot {
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  color: #6277f3;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+.newaccount {
+  width: 40%;
+  height: 40px;
+  background-color: #27bb3b;
+  position: relative;
+  left: 96px;
+  top: 35px;
+  color: #ffffff;
+}
+.newaccount:hover {
+  background-color: #36a420;
+  color: white;
+}
+.pharagrhap2 {
+  font-size: 13px;
+  font-family: sans-serif;
+  position: relative;
+  left: 149px;
+  top: 20px;
+}

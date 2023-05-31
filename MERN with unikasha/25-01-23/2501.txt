@@ -1,0 +1,41 @@
+**FLOW CHART**
+flowchart is just a pictorial represtation of a pseudocode/code.
+
+
+QUESTION: Greater of 2 numbers
+BEGIN 
+ CREATE num1,num2
+ SET num1=1,num2=2
+IF num1>num2
+  WRITE num1
+ELSE 
+  WRITE num2
+END
+
+
+QUESTION:
+create a flow diagram to find middle of the three number.
+
+b<a<c
+c<a<b
+
+a<b<c
+c<b<a
+
+if neither a nor b is middile one than middile one is c. (doubt)
+
+BEGIN 
+ CREATE a,b,c
+IF a>b 
+  IF a<c 
+    WRITE a
+ELSE 
+ IF b<c 
+   WRITE b
+ ELSE 
+   IF a>c
+    WRITE c
+END
+
+
+other notes in copy

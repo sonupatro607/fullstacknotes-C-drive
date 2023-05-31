@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+.main-ctn {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  top: 200px;
+}
+.num {
+  font-size: 70px;
+}
+.increase {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: greenyellow;
+  margin: 40px;
+}
+.decrease {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: red;
+  margin: 40px;
+}
+
+/* -------------------------------------(29-03-23)- NUmber cannot go above 10 box */
+/* Note:
+jaha kahi bi position: relative; ha 
+agar iss position: realative; wale element ke upper lana ho kisi element ko toh 
+position: absolute; dene hota ha fir wo position relative ke upper aa 
+jayega jaise main_ctn ke upper mid_ctn ko laya gaya ha aisa isliye hota 
+kyuki relative ke related he absolute kam krta ha */
+
+.mid_ctn {
+  width: 40vw;
+  height: 45vh;
+  border: 1px solid black;
+  background-color: red;
+  position: absolute;
+  opacity: 0.4;
+}
+.upper_ctn {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(0, 255, 64);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.lower_ctn {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,14 @@
+
+Name of Examination	Name of College / School/University	Year of Passing
+BE	MIT College of Engineering	August 2013
+Diploma in Computer Engineering	Government Polytechnic	July 2010
+HSC (Science)	Nutan College, Maharashtra Board	June 2007
+SSC (Maharashtra Board),		June 2005
+
+
+Name of Examination	Name of College / School/University	Year of Passing
+BE	MIT College of Engineering	August 2013
+Diploma in Computer Engineering	Government Polytechnic	July 2010
+HSC (Science)	Nutan College, Maharashtra Board	June 2007
+SSC (Maharashtra Board),		June 2005
+

@@ -1,0 +1,164 @@
+Problem for which will have a straight forward solution -----> algorithmic problems 
+
+eg- addition of two number
+move to resturant 
+move to a temple 
+
+Problem for which will not have a straight forward solution -----> heuristic problems 
+
+eg - predicting best stocks 
+give me 300cr 
+
+
+** you need to have a knowledege of six steps in order to solve any problems
+ (algorithimic as well as heuristic) **
+
+1. identify the problem 
+2. understand the problem 
+3. find the alternate ways to solve this problems
+4. find the best way to solve the problem.
+5. write the steps to execute the best solution.
+6. evaluation to the best solution.
+
+
+
+
+** Add two numbers **
+
+first number is 7
+second number  is 6 
+sum of first and secomd number stored im sum 
+
+sum is equivalent to sum of first and second number that is 13 
+
+
+**calculate the cost of using bike for one month 
+steps **
+--by me --
+1. yes i have a bike 
+2. i ride my bike daily 
+3. At minimum i spend my time with my bike around 1 to 2hrs.
+4. my bike average is almost 60km/liter
+5 i cover the distance around 15 km daily basis.
+6 according to distance coverage by 15km daily, basis of my 
+average of my bike i spend 25.5 rs daily 
+7. and also i keep my bike clean and maintain their average by their servicing in a week, there i spend 150rs in a week 
+8. the over all cost i spend on the bike for a month is 
+25.5*30 + 150*4 = 1365rs/month
+
+-- BY SIR --
+a. on average how hours i spend with my bike a day (x min)
+b. on average how many kms i cover my bike in a day (y km)
+   b.1- in 1 km, how much petrol do we consume - (l liter)
+   b.2- cost of 1 liter of petrol - (p liter)
+
+c. in the current month how many days we have (30 days)
+d. in the current month how many holidays do we have (z days)
+e. know how to perform addition, substtraction, multiplication
+f. calculate number of active days (30-z)
+g. calculate time cost (30-z)*X mins
+h. calculate distance covered (30-z)*Y km
+i. calculate finacial cost (30-z)*Y*l*P 
+
+
+******************************************************************
+
+** VARIABLE, CONSTANT, DATA TYPE **
+
+1. VARIABLE -  it is something that we can change their value .
+eg - pm of country 
+     cm of state
+2. constant - it is something that we cannot change theit value.
+eg- your father name 
+    your number of sibling 
+    number of pm, cm in our country
+    indian currency notes 
+
+-----------------------------------------------------------
+
+** calculate the average of 5 numbers **
+
+Sudhanshu: 780, 450, 1289, 765, 653
+
+steps:
+1. Identify the problem ----> calculate average of 5 numbers
+
+2. understand the problem -----> 
+   2.a - we have five numbers
+   2.b - how many container do we need to hold these numbers (5)
+   2.b - hold yours numbers 
+           x1 - 780
+           x2 - 450
+           x3 - 1289
+           x4 - 765
+           x5 - 653
+
+step -3 and step - 4 is not that much meaningful here
+
+5. (x1+x2+x3+x4+x5)/5
+
+6. 0.1 ms it take to perform this addition and consume 10mb of memory 
+
+
+--------------------------------------------------------------------------
+
+
+3. DATA TYPE: 
+
+1,2,3,-7,-8,-1 -------> integer 
+
+1.88,3.43,1.3,-4.5,-1.6 -----------> floating point value
+
+'a','b', '1', '&','.'----------> character
+
+True/ False -----------> boolean 
+
+"avinashpatro"---------------> string 
+
+
+**************************************************************
+
+**** AND , OR , not ***** ------> (they both are need two operand )
+
+AND ---> AND is produce true if both left and right is true.
+OR ---------> OR is produce true if either left or right is true.
+
+AND ----> AND is produce false if either left or right is false 
+OR ------> OR is produce false if both left and right is false.
+
+example- 
+
+true AND true ----> true 
+false AND true ----> false
+true AND false ----> false 
+false AND false ----> false 
+
+true OR true ----> true
+false OR true ----> true
+true OR false ----> true
+false OR false ----> false
+
+not True --------> false 
+not False ---------> true 
+
+
+question: 
+
+ a = true 
+ b = false 
+ c = true 
+ d = false 
+
+ R = (a AND b) or (b or a)
+ R = false or true 
+ R = true 
+
+R1 = c or (a AND b) AND (a or b ) or (a or c)
+R1 = true or false AND true or true
+R1 = true AND true 
+R1 = true 
+
+R2 = not (a AND b AND  c) AND not (c or d) AND a 
+R2 = not false AND not true AND true
+R2 = true AND false AND true 
+R2 = false 

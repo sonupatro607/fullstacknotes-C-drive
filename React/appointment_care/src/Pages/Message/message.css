@@ -1,0 +1,96 @@
+.msg_main {
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.msgimg0 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.msgtop {
+  width: 100%;
+  height: 12%;
+  background-image: linear-gradient(
+    to right,
+    #2c3bbf,
+    #6b2c72,
+    #a5284a,
+    #ab2f0d,
+    #924300,
+    #815300
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.msgheading1 {
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+/* for bottom */
+.msg_bottom {
+  width: 100%;
+  height: 87%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.bigbox {
+  width: 60%;
+  height: 70%;
+  background-color: rgb(245, 245, 176);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.smallbox {
+  width: 45%;
+  height: 50%;
+  background-color: white;
+}
+.sendmessage {
+  width: 200px;
+  height: 40px;
+  background-color: #0d35ab;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+}
+.thanksbox {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  background-color: rgb(0, 255, 106);
+  opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crossicon {
+  font-size: 60px;
+  color: greenyellow;
+  position: relative;
+  bottom: 200px;
+  left: 500px;
+}
+.thanksheading {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  bottom: 30px;
+}

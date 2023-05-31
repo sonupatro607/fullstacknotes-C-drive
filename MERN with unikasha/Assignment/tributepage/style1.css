@@ -1,0 +1,25 @@
+h2 {
+  font-size: 50px;
+}
+#id1 {
+  position: relative;
+  bottom: 40px;
+  font-size: 20px;
+}
+.img2 {
+  width: 60vw;
+  height: 60vh;
+  margin-left: 60px;
+}
+#id2 {
+  position: relative;
+  bottom: 20px;
+  font-size: 23px;
+  margin-left: 60px;
+}
+h4 {
+  font-size: 30px;
+}
+ul {
+  font-size: 25px;
+}

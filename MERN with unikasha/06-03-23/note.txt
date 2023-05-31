@@ -1,0 +1,39 @@
+<!-- we will cover this all topics at end of this course.
+
+# implementation of tree
+# in order
+# post order
+# pre order
+# level
+# BFS
+# DFS
+# Lambada expression
+# polymorphism
+# Abstraction
+# encapsulation
+# inheritance 
+
+HTML ---->hyper text markup language
+ ## difference between mark up language and programming languagae
+  *programing language (javascript,java..etc) can perform loogics while markup language cannot.
+  *HTML is error free language, it is not willling to perform logics. -->
+
+*****************BOILER PLATE OF HTML***************
+
+<html>
+<head>
+       ------------------> (meta data)
+<head/>
+<body>
+       ------------------> (it contains actual content like heading, paragraph, image audio...etc )
+<body/>
+<html/>
+
+
+## META DATA :
+data about data 
+
+eaxample:
+authore of a book
+it means book is a data authore is also one data.
+
